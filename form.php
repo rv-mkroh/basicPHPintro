@@ -8,9 +8,9 @@ session_start();
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <title>Basic PHP</title>
+  <meta name="description" content="Learning PHP form submission">
+  <meta name="author" content="Mark Kroh">
 
   <link rel="stylesheet" href="lib/css/styles.css?v=1.1">
 
@@ -28,7 +28,6 @@ session_start();
     } else {
       include('formTemplate.php');
     }
-          // include('formTemplate.php');
 
   ?>
   <script src="lib/js/scripts.js"></script>
